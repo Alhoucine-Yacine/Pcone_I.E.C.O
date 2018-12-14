@@ -1,0 +1,191 @@
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+.root {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+.label {
+    -fx-text-fill: white;
+
+
+}
+
+.warning {
+    -fx-text-fill: darkred;
+    -fx-font-weight: bold;
+}
+
+.text-field{
+    -fx-background-color: darkgray;
+}
+
+.radio-button{
+    -fx-text-fill: white;
+
+
+}
+
+.combo-box {
+
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+
+
+}
+
+.combo-box .cell {
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+
+}
+
+.combo-box:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+
+}
+
+.table-view .column-header-background .filler {
+
+    -fx-background-color:  #6622CC;
+
+}
+
+.table-view .column-header .label{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1,black);
+
+
+}
+
+.table-view .cell:odd{
+    -fx-border-color: #29292D;
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-font-weight: bold;
+    -fx-cell-size: 35;
+
+}
+.table-view .cell:odd:hover{
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+
+
+}
+
+.table-view .cell:even{
+    -fx-border-color: #29292D;
+    -fx-text-fill: black;
+    -fx-background-color: linear-gradient(beige,#61a2b1);
+    -fx-font-weight: bold;
+    -fx-cell-size: 35;
+
+}
+.table-view .cell:even:hover{
+    -fx-background-color: linear-gradient(#61a2b1,beige);
+
+
+}
+
+.table-view .cell:even .check-box{
+    -fx-text-fill: black;
+
+}
+
+.table-view2 .cell:even .check-box{
+    -fx-text-fill: black;
+
+}
+
+.table-view2 .cell:even .label{
+    -fx-text-fill: black;
+
+}
+
+.table-view .cell:even .label{
+    -fx-text-fill: black;
+
+}
+
+.check-box {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+
+}
+
+.text-field:focused {
+    -fx-background-color: white;
+
+}
+
+.table-view{
+    -fx-background-color: #61a2b1;
+
+}
+
+.table-view2{
+    -fx-background-color: #61a2b1;
+
+}
+
+.table-view2 .column-header-background .filler {
+
+    -fx-background-color:  #6622CC;
+
+}
+
+.table-view2 .column-header .label{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1,black);
+
+
+}
+
+.table-view2 .cell:odd{
+    -fx-border-color: #29292D;
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-font-weight: bold;
+    -fx-cell-size: 50;
+
+
+}
+.table-view2 .cell:odd:hover{
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+
+}
+
+.table-view2 .cell:even{
+    -fx-border-color: #29292D;
+    -fx-text-fill: black;
+    -fx-background-color: linear-gradient(beige,#61a2b1);
+    -fx-font-weight: bold;
+    -fx-cell-size: 50;
+
+
+}
+.table-view2 .cell:even:hover{
+    -fx-background-color: linear-gradient(#61a2b1,beige);
+
+}
+
+
+.label2{
+    -fx-text-fill: black;
+
+}
+.hbox {
+    -fx-border-color: black;
+    -fx-border-width: 5;
+}
+
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPane2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="376.0" prefWidth="472.0" styleClass="root" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="addClientController">
+  <children>
+    <Button fx:id="ajouter" layoutX="158.0" layoutY="317.0" mnemonicParsing="false" onAction="#addPressed" prefHeight="26.0" prefWidth="127.0" text="Ajouter" />
+    <Button fx:id="retour" layoutX="325.0" layoutY="317.0" mnemonicParsing="false" onAction="#cancelPressed" prefHeight="27.0" prefWidth="127.0" text="Annuler" />
+    <Label layoutX="48.0" layoutY="56.0" text="Nom du client :" />
+    <TextField fx:id="textField" layoutX="47.0" layoutY="81.0" prefWidth="200.0" />
+    <Label fx:id="label" layoutX="49.0" layoutY="126.0" styleClass="warning" text="" textFill="RED" />
+    <Label layoutX="277.0" layoutY="356.0" prefWidth="195.0" styleClass="label2" text="Engineering industrial service__2018" />
+  </children>
+  <stylesheets>
+    <URL value="@mystyle.css" />
+  </stylesheets>
+</AnchorPane>

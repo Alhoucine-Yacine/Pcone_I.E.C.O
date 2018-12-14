@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPane" blendMode="SRC_OVER" focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="544.75" prefWidth="995.5" styleClass="root" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Controller">
+  <children>
+    <Button fx:id="client" defaultButton="false" layoutX="14.0" layoutY="19.0" mnemonicParsing="false" onAction="#clientPressed" prefHeight="48.0" prefWidth="208.0" text="Ajouter un client" />
+    <Button fx:id="commande" layoutX="14.0" layoutY="166.0" mnemonicParsing="false" onAction="#commandePressed" prefHeight="48.0" prefWidth="208.0" text="Ajouter une commande" />
+    <Button fx:id="optimal" layoutX="774.0" layoutY="19.0" mnemonicParsing="false" onAction="#optimPressed" prefHeight="48.0" prefWidth="208.0" text="Voir le programme optimal" />
+    <Button fx:id="combiner" layoutX="774.0" layoutY="166.0" mnemonicParsing="false" onAction="#combPressed" prefHeight="48.0" prefWidth="208.0" text="Combiner une commande" />
+    <Button fx:id="liste" layoutX="14.0" layoutY="468.0" mnemonicParsing="false" onAction="#listePressed" prefHeight="48.0" prefWidth="208.0" text="Liste des commandes" />
+    <Button fx:id="deleteC" layoutX="14.0" layoutY="320.0" mnemonicParsing="false" onAction="#deletePressed" prefHeight="48.0" prefWidth="208.0" text="Supprimer une commande" />
+    <Button id="deleteC" fx:id="historique" layoutX="774.0" layoutY="320.0" mnemonicParsing="false" onAction="#historiquePressed" prefHeight="48.0" prefWidth="208.0" text="Historique d'optimisation" />
+    <Button id="deleteC" layoutX="774.0" layoutY="468.0" mnemonicParsing="false" onAction="#statPressed" prefHeight="48.0" prefWidth="208.0" text="Statistiques" />
+    <Label layoutX="799.0" layoutY="525.0" prefWidth="195.0" styleClass="label2" text="Engineering industrial service__2018" />
+    <HBox layoutX="388.0" layoutY="368.0" minHeight="141.0" prefHeight="148.0" prefWidth="355.0" styleClass="hbox">
+      <children>
+        <ImageView fitHeight="137.59999487066113" fitWidth="344.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@Logo.jpg" />
+          </image>
+          <HBox.margin>
+            <Insets />
+          </HBox.margin>
+        </ImageView>
+      </children>
+    </HBox>
+  </children>
+  <stylesheets>
+    <URL value="@mystyle.css" />
+  </stylesheets>
+</AnchorPane>

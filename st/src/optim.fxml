@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="904.0" prefWidth="1825.0" styleClass="root" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="optimController">
+  <children>
+    <TableView fx:id="tableView" layoutX="0.0" layoutY="1.0" prefHeight="822.0" prefWidth="1826.0" styleClass="table-view2">
+      <columns>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="1551.0" text="Commandes" fx:id="commandes" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="85.0" text="Laize (mm)" fx:id="laise" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="87.0" text="Dechet (mm)" fx:id="dechet" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="101.0" text="Choix (mm)" fx:id="choix" />
+      </columns>
+    </TableView>
+    <Button fx:id="retour" layoutX="1593.0" layoutY="845.0" mnemonicParsing="false" onAction="#retourPressed" prefHeight="37.0" prefWidth="218.0" text="Retour" />
+    <Label layoutX="1631.0" layoutY="887.0" prefWidth="195.0" styleClass="label2" text="Engineering industrial service__2018" />
+  </children>
+  <stylesheets>
+    <URL value="@mystyle.css" />
+  </stylesheets>
+</AnchorPane>
